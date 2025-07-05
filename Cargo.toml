@@ -1,0 +1,15 @@
+[package]
+name = "musiek"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rodio = "0.17"
+crossterm = "0.27"
+walkdir = "2.4"
+metaflac = "0.2.5"
+ratatui = { version = "0.27.0", features = ["crossterm"] }
+rfd = "0.14.1"
+viuer = "0.7.0"
+image = "0.24.9"
+rand = "0.8"
